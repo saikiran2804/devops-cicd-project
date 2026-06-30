@@ -48,3 +48,4 @@ jobs:
     - name: Push Docker image
       run: |
         docker push ghcr.io/${{ github.repository }}/devops-app:latest
+        
