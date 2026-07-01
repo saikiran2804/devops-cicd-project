@@ -6,5 +6,8 @@ app = Flask(__name__)
 def home():
     return "Hello DevOps!"
 
+def home2():
+    return "Practice and Learning!"
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
