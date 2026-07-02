@@ -5,4 +5,4 @@ def test_home():
     response = client.get("/")
 
     assert response.status_code == 200
-    assert b"Hello DevOps!" in response.data
+    assert b"Executed CICD Pipeline and Deployment!" in response.data
